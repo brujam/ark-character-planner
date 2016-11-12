@@ -51,6 +51,7 @@ Ideas:
           * Stone, Flint, Metal, Crystal
           * Fiber
           * Berries
+          * Meat, Hide, Chitin, Keratin
         
 v1 Definition of Done: has a few vanilla engrams, enough for testing adding, removing, ding button, dependencies. Save log to local storage. (as "ding, vanilla:stone_axe, spear, ding,"...)
 v2 DoD: All Vanilla <-- Share for feedback!
