@@ -1,5 +1,4 @@
-const elem = React.createElement;
-ReactDOM.render(elem("h1", {}, "Hello World"), document.getElementById("react_anchor"));
+elem = React.createElement;
 
 var Engram = React.createClass({
   propTypes: {
@@ -33,7 +32,7 @@ var Engram = React.createClass({
   },
 });
 
-engrams = [];
+document.engrams = [];
 
 template_engram = elem(Engram, {
   ID:           "No ID",
@@ -44,19 +43,7 @@ template_engram = elem(Engram, {
   Icon:         "null.png",
   Requires:     "none",
   Description:  "This doesn't exist",
-  HarvestTypes: {thatch:1,
-                 wood:1,
-                 stone:1,
-                 flint:1,
-                 metal:1,
-                 crystal:1,
-                 fiber:1,
-                 berries:1,
-                 meat:1,
-                 hide:1,
-                 chitin:1,
-                 keratin:1,
-                },
+  HarvestTypes: {your_soul: 6},
   DamageTypes:  "Sanity",
 })
 
@@ -71,8 +58,8 @@ fists = elem(Engram, {
   Icon:         "null.png",
   Requires:     "none",
   Description:  "Fists. Blunt weaponry. Use to get a Stone Pick, or to knock out Dodos for taming.",
-  HarvestTypes: {thatch:1,
-                 wood:2,
+  HarvestTypes: {thatch:2,
+                 wood:1,
                  stone:1,
                  berries:1,
                 },
