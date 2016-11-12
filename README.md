@@ -46,6 +46,11 @@ Ideas:
         * thatch:1 <-- main resource
         * wood:2 <-- sub-resource
         * absent <-- darkened
+        * Valid harvest types:
+          * Thatch, wood
+          * Stone, Flint, Metal, Crystal
+          * Fiber
+          * Berries
         
 v1 Definition of Done: has a few vanilla engrams, enough for testing adding, removing, ding button, dependencies. Save log to local storage. (as "ding, vanilla:stone_axe, spear, ding,"...)
 v2 DoD: All Vanilla <-- Share for feedback!
