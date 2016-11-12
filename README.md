@@ -43,15 +43,13 @@ Ideas:
       * Description
       * HarvestTypes: (what resources it is good at harvesting - trike for stone etc)
         * Do little icon grid, blue for good, orange for gets-some-but-not-much, dark grey for none at all?
-        * thatch:1 <-- main resource
-        * wood:2 <-- sub-resource
-        * absent <-- darkened
-        * Valid harvest types:
-          * Thatch, wood
-          * Stone, Flint, Metal, Crystal
-          * Fiber
-          * Berries
-          * Meat, Hide, Chitin, Keratin
+        * 0/missing: Darkened, doesn't harvest this
+        * 1: Red, harvests this but real poorly
+        * 2: Orange, harvests this...
+        * 3: Yellow, harvests this
+        * 4: Teal, harvests this
+        * 5: Blue, is da best at harvesting this
+        * Valid harvest types; steal from Wiki
         
 v1 Definition of Done: has a few vanilla engrams, enough for testing adding, removing, ding button, dependencies. Save log to local storage. (as "ding, vanilla:stone_axe, spear, ding,"...)
 v2 DoD: All Vanilla <-- Share for feedback!
