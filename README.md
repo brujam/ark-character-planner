@@ -36,12 +36,12 @@ Ideas:
       * Name
       * Bias
       * Icon link if available
-      * Depends-on
+      * Dependencies
         * lists only direct dependencies, not entire tree
         * entire tree can be resolved at runtime
         * pop up to add dependencies to engram list
       * Description
-      * Good-for: (what resources it is good at harvesting - trike for stone etc)
+      * HarvestTypes: (what resources it is good at harvesting - trike for stone etc)
         * Do little icon grid, blue for good, orange for gets-some-but-not-much, dark grey for none at all?
         * thatch:1 <-- main resource
         * wood:2 <-- sub-resource
