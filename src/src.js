@@ -9,7 +9,7 @@ var Engram = React.createClass({
     MinimumLevel: React.PropTypes.number.isRequired,
     Bias:         React.PropTypes.string,
     Icon:         React.PropTypes.string,
-    Requires: React.PropTypes.string,
+    Requires:     React.PropTypes.string,
     Description:  React.PropTypes.string,
     HarvestTypes: React.PropTypes.any,
     DamageTypes:  React.PropTypes.string,
@@ -42,7 +42,7 @@ template_engram = elem(Engram, {
   MinimumLevel:  0,
   Bias:         "None",
   Icon:         "null.png",
-  Requires: "none",
+  Requires:     "none",
   Description:  "This doesn't exist",
   HarvestTypes: {thatch:1,
                  wood:1,
@@ -69,7 +69,7 @@ fists = elem(Engram, {
   MinimumLevel:  0,
   Bias:         "None",
   Icon:         "null.png",
-  Requires: "none",
+  Requires:     "none",
   Description:  "Fists. Blunt weaponry. Use to get a Stone Pick, or to knock out Dodos for taming.",
   HarvestTypes: {thatch:1,
                  wood:2,
@@ -86,7 +86,7 @@ engrams.push(elem(Engram, {
   MinimumLevel:  0,
   Bias:         "None",
   Icon:         "null.png",
-  Requires: "none",
+  Requires:     "none",
   Description:  "Stone Pick. Your very first basic tool.",
   HarvestTypes: {thatch:1,
                  wood:2,
@@ -110,7 +110,7 @@ engrams.push(elem(Engram, {
   MinimumLevel:  0,
   Bias:         "None",
   Icon:         "null.png",
-  Requires: "none",
+  Requires:     "none",
   Description:  "Light up the night! Can be thrown to the floor with a right-click.",
   HarvestTypes: {thatch:0,
                  wood:0,
@@ -136,7 +136,7 @@ engrams.push(elem(Engram, {
   MinimumLevel:  2,
   Bias:         "None",
   Icon:         "null.png",
-  Requires: "none",
+  Requires:     "none",
   Description:  "Creates light, heats an area, and cooks meat for you. Transforms wood into charcoal.",
   /*
   HarvestTypes: {thatch:1,
@@ -163,7 +163,7 @@ engrams.push(elem(Engram, {
   MinimumLevel:  2,
   Bias:         "None",
   Icon:         "null.png",
-  Requires: "none",
+  Requires:     "none",
   Description:  "A sharp flint hatchet for harvesting wood from trees, stone from rocks, and skin from bodies.",
   HarvestTypes: {thatch:2,
                  wood:1,
@@ -188,7 +188,7 @@ engrams.push(elem(Engram, {
   MinimumLevel:  2,
   Bias:         "None",
   Icon:         "null.png",
-  Requires: "none",
+  Requires:     "none",
   Description:  "An easily made melee weapon that can also be thrown. Has a chance [3.5%] to break when used.",
   HarvestTypes: {thatch:0,
                  wood:0,
@@ -203,7 +203,7 @@ engrams.push(elem(Engram, {
                  chitin:0,
                  keratin:0,
                 },
-  DamageTypes:  "Lethal",
+  DamageTypes:  "Lethal (30 stab / 50 throw)",
 }))
 
 engrams.push(elem(Engram, {
@@ -213,7 +213,7 @@ engrams.push(elem(Engram, {
   MinimumLevel:  2,
   Bias:         "None",
   Icon:         "null.png",
-  Requires: "none",
+  Requires:     "none",
   Description:  "Write your own text on a note! Or put it in a Cooking Pot to make a Custom Recipe!",
 }))
 
@@ -224,22 +224,8 @@ engrams.push(elem(Engram, {
   MinimumLevel:  2,
   Bias:         "Armour",
   Icon:         "null.png",
-  Requires: "none",
+  Requires:     "none",
   Description:  "Provides some protection from the heat and cold, but only minimal protection from injuries.",
-/*  HarvestTypes: {thatch:0,
-                 wood:0,
-                 stone:0,
-                 flint:0,
-                 metal:0,
-                 crystal:0,
-                 fiber:0,
-                 berries:0,
-                 meat:0,
-                 hide:0,
-                 chitin:0,
-                 keratin:0,
-                },
-  DamageTypes:  "Lethal",*/
 }))
 
 engrams.push(elem(Engram, {
@@ -249,22 +235,8 @@ engrams.push(elem(Engram, {
   MinimumLevel:  2,
   Bias:         "Armour",
   Icon:         "null.png",
-  Requires: "none",
+  Requires:     "none",
   Description:  "Provides some protection from the heat and cold, but only minimal protection from injuries.",
-/*  HarvestTypes: {thatch:0,
-                 wood:0,
-                 stone:0,
-                 flint:0,
-                 metal:0,
-                 crystal:0,
-                 fiber:0,
-                 berries:0,
-                 meat:0,
-                 hide:0,
-                 chitin:0,
-                 keratin:0,
-                },
-  DamageTypes:  "Lethal",*/
 }))
 
 engrams.push(elem(Engram, {
@@ -276,20 +248,6 @@ engrams.push(elem(Engram, {
   Icon:         "null.png",
   Requires:     "none",
   Description:  "A foundation is required to build structures. This one is a wooden frame with some smooth bundles of sticks that act as a floor.",
-/*  HarvestTypes: {thatch:0,
-                 wood:0,
-                 stone:0,
-                 flint:0,
-                 metal:0,
-                 crystal:0,
-                 fiber:0,
-                 berries:0,
-                 meat:0,
-                 hide:0,
-                 chitin:0,
-                 keratin:0,
-                },
-  DamageTypes:  "Lethal",*/
 }))
 
 engrams.push(elem(Engram, {
@@ -301,20 +259,6 @@ engrams.push(elem(Engram, {
   Icon:         "null.png",
   Requires:     "none",
   Description:  "This thatch wall has an entrance in it, but requires more wood to stay stable.",
-/*  HarvestTypes: {thatch:0,
-                 wood:0,
-                 stone:0,
-                 flint:0,
-                 metal:0,
-                 crystal:0,
-                 fiber:0,
-                 berries:0,
-                 meat:0,
-                 hide:0,
-                 chitin:0,
-                 keratin:0,
-                },
-  DamageTypes:  "Lethal",*/
 }))
 
 
