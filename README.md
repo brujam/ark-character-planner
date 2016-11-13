@@ -51,7 +51,7 @@ Ideas:
         * 5: Blue, is da best at harvesting this
         * Valid harvest types; steal from Wiki
         
-v1 Definition of Done: has a few vanilla engrams, enough for testing adding, removing, ding button, dependencies. Save log to local storage. (as "ding, vanilla:stone_axe, spear, ding,"...)
+v1 Definition of Done: has a few vanilla engrams, enough for testing adding, ding button, dependencies. Save log to local storage. (as "ding, vanilla:stone_axe, spear, ding,"...)
 v2 DoD: All Vanilla <-- Share for feedback!
 v3 DoD: all Scorched Earth
 v4 Definition of Done: has the Mentat Modpack hard coded in
