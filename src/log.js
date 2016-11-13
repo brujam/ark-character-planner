@@ -9,7 +9,7 @@ var LogEntry = React.createClass({
   
   render: function() {
     return (
-      React.createElement('li', {className: "engram:" + this.props.ID,
+      React.createElement('li', {className: "log",
                                  key:       "logEntry:engram:" + this.props.ID
                                 }, 
                           this.props.Text)

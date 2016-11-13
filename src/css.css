@@ -1,4 +1,18 @@
-.engram {
-  float: left;
-  width: 75%;
+body{
+  width:99%;
+  margin:0;
+}
+#engram_anchor {
+  float:left;
+  width:69%;
+  margin-left:10px
+}
+
+#log_anchor {
+  float:right;
+  width:30%;
+}
+
+div {
+  border:none;
 }

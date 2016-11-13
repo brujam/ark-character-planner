@@ -17,7 +17,7 @@ var Engram = React.createClass({
   render: function() {
     return (
       React.createElement('div', {key:       "engram:" + this.props.ID,
-                                  className: "engram:" + this.props.ID,
+                                  className: "engram",
                                  }, 
                           React.createElement('div', {},
                               this.props.Name+ ": " +
